@@ -301,6 +301,9 @@ a:active {
   color: #999898; /* color al pasar el mouse */
 }
 
+.footer-ul{
+  color: #ffffff;
+}
 .footer-ul a:hover{
   color: #999898;
 }
@@ -343,4 +346,5 @@ a:active {
   }
 
 }
+
 
