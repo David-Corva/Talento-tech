@@ -264,6 +264,7 @@ html, body {
   order: -2;
   list-style-type: none;
   font-family: 'BBH Sans Bogle', Verdana, Tahoma, sans-serif;
+  color: white;
 }
 
 .footer-mapa {
@@ -327,4 +328,5 @@ a:visited {
   .nav-links li {
     margin: 10px 0; /* Espacio entre los elementos en vista móvil */
   }
+
 }
