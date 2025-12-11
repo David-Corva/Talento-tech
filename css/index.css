@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.login_section {
+    flex-wrap:wrap-reverse;
+    display: static;
+    gap: 50px; /* Espacio entre los dos divs */
+    padding: 20px; /* Espacio alrededor del contenido */
+    border-color: #333; /* Borde alrededor del contenedor */
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.formulario {
+    flex: 1;
+    text-align: center;
+}
+
+.formulario h2 {
+  text-align: center;
+
+}
+.input {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0; /* Espacio arriba y abajo */
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total */
+    border: 2px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 12px; /* Tamaño de fuente */
+    resize: vertical; /* Permite redimensionar solo verticalmente */
+    }
+
+.boton-log {
+    background-color: #4CAF50; /* Verde */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+.error {
+    padding-top: 3%;
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
